@@ -1,0 +1,4 @@
+com.example.careerguide.test.app-androidTest-0 /Users/krixh.../Downloads/CareerGuide/app/build/generated/res/resValues/androidTest/debug
+com.example.careerguide.test.app-mergeDebugAndroidTestResources-1 /Users/krixh.../Downloads/CareerGuide/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.careerguide.test.app-mergeDebugAndroidTestResources-2 /Users/krixh.../Downloads/CareerGuide/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.careerguide.test.app-merged_res-3 /Users/krixh.../Downloads/CareerGuide/app/build/intermediates/merged_res/debugAndroidTest
