@@ -30,10 +30,30 @@
         android:textSize="16sp"
         android:gravity="center"
         android:layout_marginBottom="32dp" />
+    <Button
+        android:id="@+id/viewDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Details"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Career"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/shareButtonResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Result"
+        android:layout_marginBottom="8dp" />
 
     <Button
         android:id="@+id/restartButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Take Quiz Again" />
 

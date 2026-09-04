@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:1-38:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/krixh.../.gradle/caches/9.0.0/transforms/693872d4339e4907b76c6f6e96167f53/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/krixh.../.gradle/caches/9.0.0/transforms/864a4074b4b94bb02a58282ea1aac389/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/krixh.../.gradle/caches/9.0.0/transforms/6b434ad6c4d0ac8db72ced1ac89a8431/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -53,9 +53,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/krixh.../
 		INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:4:5-22:19
-INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:4:5-22:19
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:6:5-36:19
+INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:6:5-36:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/krixh.../.gradle/caches/9.0.0/transforms/693872d4339e4907b76c6f6e96167f53/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/krixh.../.gradle/caches/9.0.0/transforms/693872d4339e4907b76c6f6e96167f53/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/krixh.../.gradle/caches/9.0.0/transforms/864a4074b4b94bb02a58282ea1aac389/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -77,41 +81,91 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/krixh.../.gradle/cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/krixh.../.gradle/caches/9.0.0/transforms/beeb8e3857f345e6aca1eada9515692f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:6:9-37
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:8:9-37
 	android:allowBackup
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:5:9-35
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:7:9-67
-activity#com.example.careerguide.MainActivity
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:10:9-17:20
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:9:9-67
+activity#com.example.careerguide.LoginActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:13:9-18:20
 	android:exported
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:12:13-36
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:13:49-72
 	android:name
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:13:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.careerguide.MainActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:20:9-75
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:20:48-72
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:20:19-47
 activity#com.example.careerguide.QuizActivity
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:19:9-75
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:21:9-75
 	android:exported
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:19:48-72
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:21:48-72
 	android:name
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:21:19-47
 activity#com.example.careerguide.ResultActivity
-ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:20:9-77
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:22:9-77
 	android:exported
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:20:50-74
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:22:50-74
 	android:name
-		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:20:19-49
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:22:19-49
+activity#com.example.careerguide.CareerListActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:23:9-81
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:23:54-78
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:23:19-53
+activity#com.example.careerguide.CareerDetailsActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:24:9-84
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:24:57-81
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:24:19-56
+activity#com.example.careerguide.SavedCareersActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:25:9-83
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:25:56-80
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:25:19-55
+activity#com.example.careerguide.SettingsActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:26:9-79
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:26:52-76
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:26:19-51
+activity#com.example.careerguide.AboutActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:27:9-76
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:27:49-73
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:27:19-48
+activity#com.example.careerguide.WebViewActivity
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:28:9-78
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:28:51-75
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:28:19-50
+provider#com.example.careerguide.CareerProvider
+ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:31:9-34:40
+	android:authorities
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:33:13-67
+	android:exported
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml:32:13-43
 uses-sdk
 INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/krixh.../Downloads/CareerGuide/app/src/main/AndroidManifest.xml

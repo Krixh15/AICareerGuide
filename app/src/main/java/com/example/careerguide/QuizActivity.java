@@ -95,11 +95,33 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void finishQuiz() {
-        String recommendedCareer = CareerScorer.getRecommendation(selectedCategories);
+        // Show a simple progress indicator and simulate background analysis
+        final String recommendedCareer = CareerScorer.getRecommendation(selectedCategories);
+        final android.widget.ProgressBar pb = findViewById(R.id.progressBar);
+        pb.setVisibility(android.view.View.VISIBLE);
+        nextButton.setEnabled(false);
 
-        Intent intent = new Intent(QuizActivity.this, ResultActivity.class);
-        intent.putExtra("career", recommendedCareer);
-        startActivity(intent);
-        finish();
+        // Simulate work on background thread, then update UI via runOnUiThread
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(1500); // simulate analysis
+                } catch (InterruptedException e) {
+                    // ignore
+                }
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        pb.setVisibility(android.view.View.GONE);
+                        Intent intent = new Intent(QuizActivity.this, ResultActivity.class);
+                        intent.putExtra("career", recommendedCareer);
+                        startActivity(intent);
+                        finish();
+                    }
+                });
+            }
+        }).start();
     }
 }

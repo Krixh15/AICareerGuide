@@ -8,6 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.careerguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -23,8 +25,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+
+        <!-- Start with a simple LoginActivity for syllabus demonstration -->
         <activity
-            android:name="com.example.careerguide.MainActivity"
+            android:name="com.example.careerguide.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,12 +37,38 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.example.careerguide.MainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.careerguide.QuizActivity"
             android:exported="false" />
         <activity
             android:name="com.example.careerguide.ResultActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.careerguide.CareerListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.careerguide.CareerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.careerguide.SavedCareersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.careerguide.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.careerguide.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.careerguide.WebViewActivity"
+            android:exported="false" />
 
+        <!-- ContentProvider for saved careers -->
+        <provider
+            android:name="com.example.careerguide.CareerProvider"
+            android:authorities="com.example.careerguide.provider"
+            android:exported="false" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.careerguide.androidx-startup"

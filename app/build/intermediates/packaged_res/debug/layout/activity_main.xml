@@ -9,24 +9,53 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AI Career Guidance"
+        android:text="AI Career Guide"
         android:textSize="28sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="8dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Answer a short quiz and get a suggested tech career path based on your interests."
+        android:text="Find a career path based on your interests and skills"
         android:textSize="16sp"
         android:gravity="center"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:id="@+id/startButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Quiz" />
+        android:text="Start Career Quiz"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/exploreButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Careers"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/savedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Careers"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About App"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_marginBottom="8dp" />
 
 </LinearLayout>
